@@ -1,4 +1,4 @@
-title: Time Series Analysis in PostgreSQL - Joana Wang
-description: Course description goes here.
-programming_language: python
-from: python-base-prod:v1.0.2
+title: "Time Series Analysis in PostgreSQL - Joana Wang"
+description: "In this course you will learn how to handle dates and analyse your data through time."
+programming_language: "python"
+from: "python-base-prod:v1.0.2"
