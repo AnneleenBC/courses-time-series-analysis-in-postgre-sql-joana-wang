@@ -2,7 +2,9 @@
 
 ## Step 1) Brainstorming
 
-*What problem(s) will students learn how to solve?*
+
+**What problem(s) will students learn how to solve?**
+
 
 If students need to work with data that contains dates and/or times.
 
@@ -27,7 +29,8 @@ This course will teach students how to work with data through time.
 - Tracking performance through time
 
 
-*What are the learning objectives of the course?*
+
+**What are the learning objectives of the course?**
 
 
 - Recognising different types of date variables (date, datetime, interval)
@@ -37,7 +40,9 @@ This course will teach students how to work with data through time.
 - Performing calculations through time that take into consideration other time periods (using window functions to compare time periods, i.e. % change, % of)
 
 
-*What technologies, packages, or functions will students use?*
+
+**What technologies, packages, or functions will students use?**
+
 
 All the date functions, window functions
 
@@ -46,7 +51,9 @@ All the date functions, window functions
 - Window functions: LAG/LEAD/SUM()/AVG() OVER (PARTITION BY ORDER BY date)
 
 
-*What terms or jargon will you define?*
+
+**What terms or jargon will you define?**
+
 
 - Date - Contains year, month, day
 - Time - Contains hour, minute, second
@@ -57,13 +64,17 @@ All the date functions, window functions
 - Cumulative - Taking into account all the data from the previous dates
 
 
-*What analogies or heuristics will you use?*
+
+**What analogies or heuristics will you use?**
+
 
 Might use timelines to explain data occurring at different points in time.
 Maybe sometimes make a comparison to the student commuting on a daily basis.
 
 
-*What mistakes or misconceptions do you expect?*
+
+**What mistakes or misconceptions do you expect?**
+
 
 - Something that students struggle with often (especially coming from a spreadsheets background) is wanting to see dates in a specific manner by trying to format it (but end up using strings).
 - Might be a bit of a conceptual jump to go from row-by-row thinking to a moving window approach in window functions.
@@ -72,7 +83,8 @@ Maybe sometimes make a comparison to the student commuting on a daily basis.
 
 
 
-*What datasets will you use?*
+**What datasets will you use?**
+
 
 I would like to use fitness data from someone's running performance.
 Each row would be one run that not only would contain start and stop times, but also duration and speed (time and distance).
@@ -82,8 +94,7 @@ https://www.kaggle.com/yingwurenjian/chicago-divvy-bicycle-sharing-data
 
 
 
-
-##Step 2) Who is this course for?
+## Step 2) Who is this course for?
 
 - Unaware Umberto: Someone who is relatively new to programming but has started off with some SQL already and is expanding their SQL knowledge
 
@@ -91,9 +102,12 @@ https://www.kaggle.com/yingwurenjian/chicago-divvy-bicycle-sharing-data
 
 
 
-##Step 3) Course Outline
+## Step 3) Course Outline
 
-*Chapter 1)	Preparing dates*
+
+**Chapter 1)	Preparing dates**
+
+
 This will focus on just preparing data as dates before it can be used for date operations.
 
 Lesson 1.1)	Identify different date formats (date, datetime, epoch, interval etc)
@@ -110,7 +124,8 @@ Example:	Create new column just for year, month, week number etc
 
 
 	
-*Chapter 2)	Calculations with dates*
+**Chapter 2)	Calculations with dates**
+
 
 Lesson 1.1)	Adding and subtracting dates
 Outcome:	Apply date operators
@@ -128,8 +143,10 @@ Lesson 1.4)	Converting intervals to a different unit
 Outcome:	Use DATE_TRUNC() and/or EXTRACT()
 Example:	Turning 1 year 3 months 15 days interval into number of months and/or rounding to nearest month (1 year 3 months)
 	
-	
-*Chapter 3)	Date aggregations*
+
+
+**Chapter 3)	Date aggregations**
+
 
 Lesson 1.1)	Identifying first and last dates
 Outcome:	Apply MIN and MAX to dates
@@ -143,8 +160,10 @@ Lesson 1.3)	Identifying frequency
 Outcome:	Set timeframe boundaries and count occurences
 Example:	Calculate how many times a customer purchased something between two dates
 	
+
 	
-*Chapter 4)	Calculations through time*
+**Chapter 4)	Calculations through time**
+
 
 Lesson 1.1)	Doing calculations through time
 Outcome:	Create a window function ordered by date
